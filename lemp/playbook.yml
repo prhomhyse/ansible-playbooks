@@ -11,7 +11,7 @@
 
     - name: Install LEMP Packages
       apt: name={{ item }} update_cache=yes state=latest
-      loop: ["nginx", "mysql-server", "python3-pymysql", "php-fpm", "php-mysql"]
+      loop: ["nginx", "mysql-server", "python3-mysqldb", "php-fpm", "php-mysql"]
 
     # Nginx Configuration
     - name: Sets Nginx conf file
