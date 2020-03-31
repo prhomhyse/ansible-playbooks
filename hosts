@@ -1,0 +1,6 @@
+[servers]
+jollof-server ansible_host=203.0.113.111
+
+
+[servers:vars]
+ansible_python_interpreter=/usr/bin/python3
